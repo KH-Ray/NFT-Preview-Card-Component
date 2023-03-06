@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](NFT-Preview-Card-Component.png)
+![](nft-preview-card-component.png)
 
 ### Links
 
