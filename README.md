@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: https://uncertainlysure.github.io/NFT-Preview-Card-Component/
+- Live Site URL: https://khanza-arrayyan.github.io/NFT-Preview-Card-Component/
 
 ## My process
 
