@@ -1,0 +1,165 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 50%;
+  transform: translateX(-50%);
+
+  background-color: hsl(217, 54%, 11%);
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  width: 23rem;
+  height: 100vh;
+}
+
+header {
+  display: none;
+}
+
+main {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 20px;
+  padding: 25px 0;
+
+  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  color: hsl(0, 0%, 100%);
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+p {
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+hr {
+  width: 90%;
+  color: hsl(215, 32%, 27%);
+}
+
+img {
+  vertical-align: top;
+}
+
+/* Pictures */
+
+.main-picture {
+  height: 20rem;
+  border-radius: 10px;
+  opacity: 1;
+  backface-visibility: hidden;
+}
+
+.main-picture-section {
+  position: relative;
+}
+
+.profile-picture {
+  height: 30px;
+  border: 1px solid;
+  border-radius: 50px;
+  border-color: hsl(0, 0%, 100%);
+  margin-left: 23px;
+}
+
+.middle-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 320px;
+  opacity: 0;
+  background-color: hsl(178, 100%, 50%);
+  margin-left: 23px;
+  border-radius: 10px;
+}
+
+.icon-view-image {
+  opacity: 0;
+  position: absolute;
+  top: 43%;
+  right: 43%;
+}
+
+/* Text */
+
+.main-sentence {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.nft-description {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.price-eth {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 110px;
+}
+
+.days-left {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+  display: inline-block;
+  margin-right: 0;
+}
+
+.profile-section {
+  text-align: left;
+  margin-top: 15px;
+}
+
+.creator-section {
+  color: hsl(215, 51%, 70%);
+  margin: 0;
+  margin-top: 6px;
+  margin-left: 6px;
+  display: inline-block;
+}
+
+/* Active State */
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.main-picture-section:hover {
+  cursor: pointer;
+}
+
+.main-picture-section:hover .middle-overlay {
+  opacity: 0.5;
+}
+
+.main-picture-section:hover .icon-view-image {
+  opacity: 1;
+}
+
+.main-sentence:hover,
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
