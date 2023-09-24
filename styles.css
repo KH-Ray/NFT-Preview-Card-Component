@@ -23,17 +23,7 @@ main {
   border-radius: 20px;
   padding: 25px 0;
 
-  box-shadow: 0 3px 16px rgba(0, 0, 0, 0.3);
-}
-
-footer {
-  color: hsl(0, 0%, 100%);
-  font-size: 11px;
-  margin-top: 10px;
-}
-
-footer a {
-  color: hsl(228, 45%, 44%);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
 }
 
 p {
@@ -162,4 +152,10 @@ a:hover {
 span:hover {
   color: hsl(178, 100%, 50%);
   cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  main {
+    transform: scale(80%);
+  }
 }
